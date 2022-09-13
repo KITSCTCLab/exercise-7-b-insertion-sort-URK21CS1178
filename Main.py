@@ -7,12 +7,12 @@ def insertionSort(array) -> List[int]:
         j = step - 1     
         while j >= 0 and key < array[j]:
             array[j + 1] = array[j]
-            j = j - 1  
+            j = j - 1
         
         array[j + 1] = key
    return array
 
- data = [9, 5, 1, 4, 3]
+data = [9, 5, 1, 4, 3]
 input_data = input()
 data = []
 for item in input_data.split(', '):
